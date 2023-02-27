@@ -34,13 +34,18 @@
   padding-bottom: 30px;
 }
 
+.py-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /* END PADDING ASSE Y */
 
 /* START CONTAINER TYPE */
 
 .container {
-  width: 90%;
-  max-width: 1400px;
+  width: 85%;
+  max-width: 2000px;
   min-height: 300px;
   margin: 0 auto;
 }

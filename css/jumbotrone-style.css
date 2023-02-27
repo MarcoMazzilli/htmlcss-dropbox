@@ -3,8 +3,42 @@
 .jumbotrone {
   background-color: var(--azure-background);
   min-height: 750px;
+  max-height: 850px;
   margin-top: 80px;
 }
 
+.jumbotrone h1 {
+  font-size: 5.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+}
+
+.content-left {
+  width: 30%;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-left p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.content-left span:last-child {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.content-right {
+  min-width: 70%;
+  max-width: 70%;
+}
 
 /* ---END JUMBOTRONE--- */
