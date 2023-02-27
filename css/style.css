@@ -1,3 +1,11 @@
+:root {
+  --azure-background :rgb(180, 208, 231);
+  --btn-background :rgb(4, 99, 255);
+  --link-color  :rgb(4, 99, 255);
+  --check-color :rgb(4, 99, 255);
+  --debug: rgb(255, 255, 0);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,14 +13,67 @@
 }
 
 img {
-  width: 100%;
+width: 100%;
 }
+
+
 
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+/* ---START HEADER--- */
 
-h1 {
-  background-color: brown;
+.header {
+  min-height: 80px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content;
+  background-color: var(--debug)
 }
+
+.header-left {   /*HEADER LEFT GENERIC*/
+  min-width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: royalblue;
+}
+
+.header-left > img {
+  width: 150px;
+}
+
+.header-left nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 23px;
+}
+
+.header-left nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-right {   /*HEADER RIGHT GENERIC */
+  min-width: 50%;
+  min-height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: brown;
+}                
+
+
+/* ---END HEADER--- */
+
+/* ---START JUMBOTRONE--- */
+
+.jumbotrone {
+  background-color: var(--azure-background);
+  min-height: 750px;
+}
+
+
+/* ---END JUMBOTRONE--- */
