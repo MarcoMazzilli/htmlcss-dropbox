@@ -1,0 +1,58 @@
+/* ---START HEADER--- */
+
+.header {
+  min-height: 80px;
+  max-height: 200px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+header nav ul li {
+  line-height: 100%;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+}
+
+.header-left {   /*HEADER LEFT GENERIC*/
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header-left img {
+  width: 150px;
+}
+
+.header-left nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 23px;
+}
+
+
+.header-right {   /*HEADER RIGHT GENERIC */
+  min-height: 80px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+} 
+
+.header-right nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 23px;
+}
+
+.btn-blue:hover {
+  cursor: pointer;
+  background-color: var(--btn-background-active)
+}
+
+
+/* ---END HEADER--- */
