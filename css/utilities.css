@@ -1,0 +1,26 @@
+/* PADDING ASSE X */
+.px-1{
+  padding: 0 10px;
+}
+
+.px-2{
+  padding: 0 20px;
+}
+
+.px-3{
+  padding: 0 30px;
+}
+
+/* PADDING ASSE Y */
+
+.py-1{
+  padding: 10px 0;
+}
+
+.py-2{
+  padding: 20px 0;
+}
+
+.py-3{
+  padding: 30px 0;
+}
