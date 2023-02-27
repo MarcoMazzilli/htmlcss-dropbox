@@ -1,6 +1,7 @@
 :root {
   --azure-background :rgb(180, 208, 231);
   --btn-background :rgb(4, 99, 255);
+  --btn-background-active :rgb(0, 162, 255);
   --link-color  :rgb(4, 99, 255);
   --check-color :rgb(4, 99, 255);
   --debug: rgb(255, 255, 0);
@@ -16,7 +17,17 @@ img {
 width: 100%;
 }
 
+a {
+  color: black;
+}
 
+a.btn-blue {
+  background-color: var(--btn-background);
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+}
 
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -26,22 +37,30 @@ body {
 
 .header {
   min-height: 80px;
+  max-height: 200px;
   width: 100%;
   position: fixed;
+  top: 0;
   display: flex;
-  justify-content;
-  background-color: var(--debug)
+  justify-content: space-between;
+  background-color: white;
+}
+
+header nav ul li {
+  line-height: 100%;
+}
+
+.header nav ul li a {
+  text-decoration: none;
 }
 
 .header-left {   /*HEADER LEFT GENERIC*/
-  min-width: 50%;
   display: flex;
   justify-content: start;
   align-items: center;
-  background-color: royalblue;
 }
 
-.header-left > img {
+.header-left img {
   width: 150px;
 }
 
@@ -51,19 +70,24 @@ body {
   padding: 0 23px;
 }
 
-.header-left nav ul li a {
-  text-decoration: none;
-  color: black;
-}
 
 .header-right {   /*HEADER RIGHT GENERIC */
-  min-width: 50%;
-  min-height: 100px;
+  min-height: 80px;
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: brown;
-}                
+} 
+
+.header-right nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 23px;
+}
+
+.btn-blue:hover {
+  cursor: pointer;
+  background-color: var(--btn-background-active)
+}
 
 
 /* ---END HEADER--- */
@@ -73,6 +97,7 @@ body {
 .jumbotrone {
   background-color: var(--azure-background);
   min-height: 750px;
+  margin-top: 80px;
 }
 
 
