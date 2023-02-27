@@ -108,8 +108,47 @@
   font-size: 1.2rem;
 }
 
-
 /* END SECTION DROPBOX BUSINESS */
+
+/* START SECTION OUR CUSTOMERS */
+
+.our-customers {
+  border: 5px solid rgb(63, 63, 5);
+}
+
+.our-customers .container-70 a {
+  color: var(--link-color);
+  font-size: 1.3rem;
+}
+
+.customers-section {
+  background-color: rgb(255, 145, 0);
+  min-height: 700px;
+  display: flex;
+  border: 1px solid blue;
+}
+
+.container-logos {
+  width: 30%;
+  background-color: rgb(0, 59, 115);
+  min-height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customer-logo {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
+
+.container-description {
+  background-color: rgb(245, 245, 245);
+  min-height: 700px;
+  flex-grow: 2;
+}
+/* END SECTION OUR CUSTOMERS*/
 
 
 
