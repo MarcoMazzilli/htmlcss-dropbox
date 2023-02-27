@@ -1,0 +1,48 @@
+/* START FOOTER STYLE */
+
+footer {
+  height: 550px;
+  padding: 5% 10%;
+  color: white;
+  background-color: black;
+}
+
+.nav-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+footer nav {
+  width: calc(100% / 5);
+}
+
+footer h3 {
+  margin-bottom: 30px;
+}
+
+footer nav ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+footer select {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: white;
+  background-color: transparent;
+
+}
+select option {
+background-color: black;
+}
+
+
+/* END FOOTER STYLE */

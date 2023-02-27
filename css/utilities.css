@@ -73,3 +73,10 @@ margin: 0 auto;
 .bug {
   border: 1px solid black;
 }
+
+
+.line-1 {
+  border: 1px solid grey;
+  max-width: 150px;
+  margin-bottom: 50px;
+}
