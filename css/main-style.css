@@ -1,0 +1,46 @@
+.choose-your-plan {
+border: 1 px solid blak;
+}
+
+/* -------------------- */
+
+.payment-methods {
+margin-bottom: 50px;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.plan-card {
+  min-height: 1000px;
+  width: 30%;
+  max-width: 30%;
+  background-color: antiquewhite;
+  border: 1px solid grey;
+}
+
+.plan-card-orizzontal {
+  min-height: 250px;
+  width: 100%;
+  max-width: 100%;
+  background-color: antiquewhite;
+  border: 1px solid grey;
+}
+
+
+
+.plan-type {
+  border-bottom: 1px solid grey;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

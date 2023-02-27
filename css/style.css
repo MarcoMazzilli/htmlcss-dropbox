@@ -32,3 +32,16 @@ a.btn-blue {
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
+/* ---START TITLE STYLE--- */
+
+h2 {
+  font-size: 3.3rem;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* ---END TITLE STYLE--- */

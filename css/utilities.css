@@ -40,14 +40,28 @@
 }
 
 /* END PADDING ASSE Y */
+/* ---START MARGIN ASSE Y--- */
+
+.mrg-y80 {
+  margin: 80px 0;
+}
+
+/* ---END MARGIN ASSE Y--- */
 
 /* START CONTAINER TYPE */
 
-.container {
+.container-85 {
   width: 85%;
   max-width: 2000px;
   min-height: 300px;
   margin: 0 auto;
+}
+
+.container-70 {
+width: 70%;
+max-width: 2000px;
+min-height: 300px;
+margin: 0 auto;
 }
 
 /* END CONTAINER TYPE */

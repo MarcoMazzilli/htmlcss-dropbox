@@ -4,7 +4,6 @@
   background-color: var(--azure-background);
   min-height: 750px;
   max-height: 850px;
-  margin-top: 80px;
 }
 
 .jumbotrone h1 {
@@ -31,7 +30,7 @@
   margin-bottom: 25px;
 }
 
-.content-left span:last-child {
+.content-left i:last-of-type {
   font-size: 3rem;
   margin-top: 20px;
 }
