@@ -1,11 +1,11 @@
+/* START SECTION CHOOSE YOUR PLAN  */
+
 .choose-your-plan {
-border: 1 px solid blak;
+    border: 5px solid black;
 }
 
-/* -------------------- */
-
 .payment-methods {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .plans {
@@ -13,7 +13,6 @@ margin-bottom: 50px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 
 .plan-card {
   min-height: 1000px;
@@ -31,8 +30,6 @@ margin-bottom: 50px;
   border: 1px solid grey;
 }
 
-
-
 .plan-type {
   border-bottom: 1px solid grey;
   height: 50px;
@@ -40,6 +37,46 @@ margin-bottom: 50px;
   justify-content: center;
   align-items: center;
 }
+
+/* END SECTION CHOOSE YOUR PLAN  */
+
+/* START SECTION FIND YOUR PARTNER */
+
+.find-your-partner {
+  border: 5px solid brown;
+}
+
+.find-your-partner .container-70 {
+  display: flex;
+  gap: 40px;
+}
+
+.find-your-partner .content-left {
+  min-width: 50%;
+}
+
+.find-your-partner .content-left img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.find-your-partner .content-right {
+  min-width: 50%;
+  max-width: 50%;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.find-your-partner .content-right p {
+  font-size: 1.2rem;
+}
+.find-your-partner .content-right a:hover  {
+  background-color: lightgray;
+}
+
+/* END SECTION FIND YOUR PARTNER */
 
 
 

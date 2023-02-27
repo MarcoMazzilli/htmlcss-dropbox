@@ -16,6 +16,10 @@
   padding-right: 30px;
 }
 
+.px-5 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 /*END PADDING ASSE X */
 /*START PADDING ASSE Y */
 
@@ -65,3 +69,7 @@ margin: 0 auto;
 }
 
 /* END CONTAINER TYPE */
+
+.bug {
+  border: 1px solid black;
+}
