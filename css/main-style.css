@@ -113,7 +113,7 @@
 /* START SECTION OUR CUSTOMERS */
 
 .our-customers {
-  border: 5px solid rgb(63, 63, 5);
+  border: 5px solid rgb(3, 162, 0);
 }
 
 .our-customers .container-70 a {
@@ -125,7 +125,6 @@
   background-color: rgb(255, 145, 0);
   min-height: 700px;
   display: flex;
-  border: 1px solid blue;
 }
 
 .container-logos {
@@ -148,6 +147,30 @@
   min-height: 700px;
   flex-grow: 2;
 }
+/* --------------------------- */
+
+.start-free-trial {
+  height: 400px;
+  background-color: var(--azure-background);
+}
+
+.start-free-trial .container-70 {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  padding: 150px 50px;
+}
+
+.start-free-trial .container-70 a {
+  color: black;
+  border: none;
+}
+
+.start-free-trial h2 {
+  color: rgb(97, 8, 43);
+}
+
+
 /* END SECTION OUR CUSTOMERS*/
 
 
