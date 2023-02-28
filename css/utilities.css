@@ -48,6 +48,12 @@
 
 /* ---START MARGIN ASSE Y--- */
 
+.mrg-y10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
 .mrg-x30 {
   margin-left: 30px;
   margin-right: 30px;
@@ -61,6 +67,10 @@
 .mrg-y80 {
   margin-top: 80px;
   margin-bottom: 80px;
+}
+
+.mrgtop-y150 {
+  margin-top: 150px;
 }
 
 .txt-center {

@@ -2,7 +2,9 @@
 
 footer {
   height: 550px;
-  padding: 5% 10%;
+  padding: 100px 300px;
+  max-width: 2000px;
+  margin: 0 auto;
   color: white;
   background-color: black;
 }

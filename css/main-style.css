@@ -1,7 +1,24 @@
 /* START SECTION CHOOSE YOUR PLAN  */
 
 .payment-methods {
-  margin-bottom: 50px;
+  margin: 50px 0;
+}
+
+.payment-methods .fake-radio-input {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  border-radius: 100%;
+  border: 4px solid var(--btn-background);
+}
+
+.fake-radio-input:last-of-type{
+  margin-left: 20px;
+  border: 1px solid grey;
+}
+
+.payment-methods span {
+font-size: 1.2rem;
 }
 
 .plans-container {
@@ -135,7 +152,7 @@
 /* START SECTION OUR CUSTOMERS */
 
 .our-customers {
-  border: 5px solid rgb(3, 162, 0);
+  padding-top: 80px;
 }
 
 .our-customers .container-70 a {
@@ -144,34 +161,84 @@
 }
 
 .customers-section {
-  background-color: rgb(255, 145, 0);
-  min-height: 700px;
   display: flex;
+  max-height: 600px;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 .container-logos {
-  width: 30%;
+  max-width: 30%;
   background-color: rgb(0, 59, 115);
-  min-height: 700px;
   display: flex;
   flex-wrap: wrap;
+  flex-shrink: 0;
 }
 
 .customer-logo {
-  width: calc(100% / 2);
-  height: 50%;
-  background-color: antiquewhite;
-  border: 1px solid black;
+  width: 50%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-logo img {
+  width: 60%;
 }
 
 .container-description {
-  background-color: rgb(245, 245, 245);
-  min-height: 700px;
   flex-grow: 2;
+  max-height: 100%;
+  overflow-y: scroll;
+  background-color: rgb(245, 245, 245);
 }
+
+.container-description > img {
+  width: 150px;
+  aspect-ratio: 1/1;
+}
+
+/* START COLOR CUSTOMERS LOGO */
+
+.customer-logo img {
+  filter: invert(100%)
+}
+
+.container-logos.left div:nth-of-type(1) {
+  background-color: var(--designit);
+}
+.container-logos.left div:nth-of-type(2) {
+  background-color: var(--asu);
+}
+.container-logos.left div:nth-of-type(3) {
+  background-color: var(--florida);
+}
+.container-logos.left div:nth-of-type(4) {
+  background-color: var(--topps);
+}
+
+.container-logos.right div:nth-of-type(1) {
+  background-color: var(--bicycle);
+}
+.container-logos.right div:nth-of-type(2) {
+  background-color: var(--hearst);
+}
+.container-logos.right div:nth-of-type(3) {
+  background-color: var(--lonelyplanet);
+}
+.container-logos.right div:nth-of-type(4) {
+  background-color: var(--clearchannel);
+}
+
+/* END COLOR CUSTOMERS LOGO */
+
+
 
 .start-free-trial {
   height: 400px;
+  max-width: 2000px;
+  margin: 0 auto;
   background-color: var(--azure-background);
 }
 

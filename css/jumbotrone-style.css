@@ -4,6 +4,8 @@
   background-color: var(--azure-background);
   min-height: 750px;
   max-height: 850px;
+  max-width: 2000px;
+  margin: 80px auto;
 }
 
 .content {

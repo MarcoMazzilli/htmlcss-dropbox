@@ -5,6 +5,14 @@
   --link-color  :rgb(4, 99, 255);
   --check-color :rgb(4, 99, 255);
   --debug: rgb(255, 255, 0);
+  --designit :rgb(162, 211, 155) ;
+  --asu:rgb(97, 8, 43);
+  --florida :rgb(0, 147, 206) ;
+  --topps: rgb(255, 28, 28) ;
+  --bicycle: rgb(213, 0, 31);
+  --hearst:rgb(180, 208, 231) ;
+  --lonelyplanet :rgb(13, 36, 129) ;
+  --clearchannel :rgb(255, 216, 48) ;
 }
 
 * {
@@ -14,7 +22,7 @@
 }
 
 body {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -67,13 +75,12 @@ a.btn-white {
 
 h1 {
   font-size: 5.5rem;
-  letter-spacing: 3px;
   margin-bottom: 50px;
 }
 
 h2 {
   font-size: 3.3rem;
-  margin: 50px 0;
+  margin-bottom: 50px 0;
 }
 
 h3 {
