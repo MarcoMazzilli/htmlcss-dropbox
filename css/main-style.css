@@ -38,6 +38,25 @@
   align-items: center;
 }
 
+.plan-card li {
+list-style: none;
+}
+
+.plan-description li:last-child  {
+  margin-top: 10px;
+  color: darkgray;
+}
+
+.plan-features li  {
+  display: flex;
+  padding: 20px 0;
+}
+
+.plan-features li i {
+  padding-right: 10px;
+}
+
+
 /* END SECTION CHOOSE YOUR PLAN  */
 
 /* START SECTION FIND YOUR PARTNER */
