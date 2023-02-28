@@ -150,7 +150,40 @@ section.dropbox-business {
   min-height: 500px;
   max-width: calc(100% / 3);
   padding: 20px 50px;
+  position: relative;
 }
+
+.dropbox-business .container-image {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container-image img {
+  width: 80%;
+  position: absolute;
+  z-index: -1;
+}
+
+.container-image:hover img {
+  animation-name: spin-zoom ;
+  transition-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes spin-zoom {
+  0% {
+    width: 50%;
+    transform: rotate(0deg);
+  }
+  100%{
+    width: 80%;
+    transform: rotate(360deg);
+  }
+}
+
 
 .card p {
   font-size: 1.2rem;
