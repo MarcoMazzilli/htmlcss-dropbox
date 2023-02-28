@@ -275,15 +275,30 @@ section.dropbox-business {
 }
 
 .start-free-trial .container-70 {
-  display: flex;
-  justify-content: space-between;
-  align-items: first baseline;
+  position: relative;
   padding: 150px 0px;
 }
 
-.start-free-trial .container-70 a {
+.start-free-trial .container-70 .btn-white {
   color: black;
   border: none;
+  position: absolute;
+  right: 0;
+  top: 170px;
+  border-radius: 10px;
+}
+
+.start-free-trial .btn-white:hover {
+  position: absolute;
+  top: 170px;
+  right: -150px;
+  font-size: 2.5rem;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: rgb(97, 8, 43);
+  color: white;
+  transition-duration: 1s;
+  text-transform: uppercase;
 }
 
 .start-free-trial h2 {
