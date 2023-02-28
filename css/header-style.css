@@ -55,3 +55,41 @@ header nav ul li:hover {
   display: inline-block;
   padding: 0 23px;
 }
+
+/* START SUPPORT DROPDOWN */
+
+.header-right nav ul li:first-child {
+  position: relative;
+}
+
+.support-dropdown {
+  width: 250px;
+  height: 1px;
+  position: absolute;
+  top: 82px;
+  left: -5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  opacity: .5;
+  overflow: hidden;
+}
+
+.header-right nav ul li:first-child:hover .support-dropdown {
+  height: 200%;
+  opacity: 1;
+  transition-duration: .5s;
+  top: 82px;
+  left: -5px;
+}
+
+.support-dropdown li {
+  width: 100%;
+  line-height: 3.5rem;
+}
+
+.support-dropdown li:hover {
+  background-color: rgb(240, 240, 240);
+  border: none;
+}
+
+/* END SUPPORT DROPDOWN */
