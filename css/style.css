@@ -44,6 +44,12 @@ a.btn-white {
 
 /* ---START TITLE STYLE--- */
 
+h1 {
+  font-size: 5.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
 h2 {
   font-size: 3.3rem;
   margin: 50px 0;

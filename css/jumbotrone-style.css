@@ -6,12 +6,6 @@
   max-height: 850px;
 }
 
-.jumbotrone h1 {
-  font-size: 5.5rem;
-  letter-spacing: 3px;
-  margin-bottom: 50px;
-}
-
 .content {
   display: flex;
 }
@@ -38,6 +32,10 @@
 .content-right {
   min-width: 70%;
   max-width: 70%;
+}
+
+.jumbotrone .content-right > img {
+  width: 100%;
 }
 
 /* ---END JUMBOTRONE--- */
