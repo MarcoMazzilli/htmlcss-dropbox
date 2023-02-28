@@ -18,7 +18,6 @@
   min-height: 1000px;
   width: 30%;
   max-width: 30%;
-  background-color: antiquewhite;
   border: 1px solid grey;
 }
 
@@ -38,29 +37,41 @@
   align-items: center;
 }
 
-.plan-card li {
-list-style: none;
+.plan-card ol li {
+  list-style: none;
+  display: flex;
+}
+
+.plan-card ul li {
+  list-style: none;
+  display: flex;
+  padding: 15px 0;
+}
+
+.plan-card li i {
+  padding-right: 10px;
 }
 
 .plan-description li:last-child  {
   margin-top: 10px;
-  color: darkgray;
+  color: rgb(115, 129, 142);
 }
 
-.plan-features li  {
-  display: flex;
-  padding: 20px 0;
-}
-
-.plan-features li i {
-  padding-right: 10px;
-}
-
-.plan-card > div {
+.plan-card > div.btn {
   text-align: center;
 }
-.plan-card > span a {
+
+.plan-card span a:only-child {
   color: var(--link-color);
+}
+
+.plan-highlights li i {
+  color: var(--check-color);
+  font-size: 1.5rem;
+}
+.plan-highlights ul {
+  padding-bottom: 100px;
+
 }
 
 
