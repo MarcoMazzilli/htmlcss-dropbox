@@ -1,6 +1,6 @@
 .header {
   min-height: 80px;
-  max-height: 200px;
+  max-height: 80px;
   width: 100%;
   max-width: 2000px;
   display: flex;

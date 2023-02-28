@@ -178,6 +178,7 @@ section.dropbox-business {
 
 .container-logos {
   max-width: 30%;
+  aspect-ratio: 1/1;
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 0;
@@ -293,6 +294,10 @@ section.dropbox-business {
 /* END SECTION OUR CUSTOMERS*/
 
 /* START SECTION QUESTIONS & ANSWERS*/
+
+section.questions-and-answers {
+  position: relative;
+}
 
 .question {
   display: flex;
