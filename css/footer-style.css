@@ -33,6 +33,10 @@ footer a {
   font-size: 1.3rem;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 footer select {
   border: none;
   cursor: pointer;
