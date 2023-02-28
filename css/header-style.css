@@ -14,7 +14,12 @@
 }
 
 header nav ul li {
-  line-height: 100%;
+  line-height: 80px;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+header nav ul li:hover {
+  border-bottom: 2px solid black;
 }
 
 .header nav ul li a {
