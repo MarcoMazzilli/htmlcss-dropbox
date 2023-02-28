@@ -56,6 +56,13 @@ list-style: none;
   padding-right: 10px;
 }
 
+.plan-card > div {
+  text-align: center;
+}
+.plan-card > span a {
+  color: var(--link-color);
+}
+
 
 /* END SECTION CHOOSE YOUR PLAN  */
 
