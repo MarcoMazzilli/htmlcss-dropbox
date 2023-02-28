@@ -83,10 +83,6 @@
 
 /* START SECTION FIND YOUR PARTNER */
 
-.find-your-partner {
-  border: 5px solid brown;
-}
-
 .find-your-partner .container-70 {
   display: flex;
   gap: 40px;
@@ -96,9 +92,8 @@
   min-width: 50%;
 }
 
-.find-your-partner .content-left img {
-  height: 100%;
-  object-fit: cover;
+.find-your-partner  .content-left > img {
+  height: 600px;
 }
 
 .find-your-partner .content-right {
@@ -113,6 +108,7 @@
 .find-your-partner .content-right p {
   font-size: 1.2rem;
 }
+
 .find-your-partner .content-right a:hover  {
   background-color: lightgray;
 }
