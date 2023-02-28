@@ -25,6 +25,8 @@ a {
   color: black;
 }
 
+/* START BUTTON STYLE */
+
 a.btn-blue {
   background-color: var(--btn-background);
   padding: 10px 20px;
@@ -32,6 +34,24 @@ a.btn-blue {
   font-weight: 600;
   color: white;
 }
+
+.btn-blue:hover {
+  cursor: pointer;
+  background-color: var(--btn-background-active)
+}
+
+a.btn-blue-long {
+  background-color: var(--btn-background);
+  padding: 10px 50px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+a.btn-blue-long:hover {
+  background-color: var(--btn-background-active);
+}
+
 
 a.btn-white {
   background-color: white;
@@ -41,6 +61,7 @@ a.btn-white {
   border: 1px solid grey;
 }
 
+/* END BUTTON STYLE */
 
 /* ---START TITLE STYLE--- */
 

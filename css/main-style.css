@@ -1,14 +1,10 @@
 /* START SECTION CHOOSE YOUR PLAN  */
 
-.choose-your-plan {
-    border: 5px solid black;
-}
-
 .payment-methods {
   margin-bottom: 50px;
 }
 
-.plans {
+.plans-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -21,11 +17,10 @@
   border: 1px solid grey;
 }
 
-.plan-card-orizzontal {
+.plan-card.orizzontal {
   min-height: 250px;
   width: 100%;
   max-width: 100%;
-  background-color: antiquewhite;
   border: 1px solid grey;
 }
 
@@ -52,13 +47,9 @@
   padding-right: 10px;
 }
 
-.plan-description li:last-child  {
+.plan-description  li:last-child  {
   margin-top: 10px;
   color: rgb(115, 129, 142);
-}
-
-.plan-card > div.btn {
-  text-align: center;
 }
 
 .plan-card span a:only-child {
@@ -69,10 +60,23 @@
   color: var(--check-color);
   font-size: 1.5rem;
 }
+
 .plan-highlights ul {
   padding-bottom: 100px;
-
 }
+
+.plan-description.orizzontal {
+  position: relative;
+}
+
+.plan-description.orizzontal a {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+
+
 
 
 /* END SECTION CHOOSE YOUR PLAN  */

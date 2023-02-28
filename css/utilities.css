@@ -21,6 +21,7 @@
   padding-right: 50px;
 }
 /*END PADDING ASSE X */
+
 /*START PADDING ASSE Y */
 
 .py-1 {
@@ -44,6 +45,7 @@
 }
 
 /* END PADDING ASSE Y */
+
 /* ---START MARGIN ASSE Y--- */
 
 .mrg-x30 {
@@ -61,7 +63,9 @@
   margin-bottom: 80px;
 }
 
-
+.txt-center {
+  text-align: center;
+}
 
 /* ---END MARGIN ASSE Y--- */
 
@@ -97,8 +101,6 @@ margin: 0 auto;
   max-width: 150px;
   margin-bottom: 50px;
 }
-
-
 
 
 /* END LINE STYLE */
