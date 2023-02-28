@@ -1,5 +1,9 @@
 /* START SECTION CHOOSE YOUR PLAN  */
 
+section.choose-your-plan {
+  position: relative;
+}
+
 .payment-methods {
   margin: 50px 0;
 }
@@ -39,6 +43,7 @@ font-size: 1.2rem;
   width: 100%;
   max-width: 100%;
   border: 1px solid grey;
+  position: relative;
 }
 
 .plan-type {
@@ -129,6 +134,10 @@ font-size: 1.2rem;
 /* END SECTION FIND YOUR PARTNER */
 
 /* START SECTION DROPBOX BUSINESS */
+
+section.dropbox-business {
+  position: relative;
+}
 
 .dropbox-business .row {
   display: flex;

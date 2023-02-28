@@ -114,3 +114,10 @@ margin: 0 auto;
 
 
 /* END LINE STYLE */
+
+/* ANCHOR TRICK */
+
+.anchor-10 {
+  position: absolute;
+  top: -100px;
+}

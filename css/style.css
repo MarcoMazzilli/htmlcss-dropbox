@@ -21,8 +21,13 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Open Sans, Arial, Helvetica, sans-serif;
+  scroll-behavior: auto;
 }
 
 img {
