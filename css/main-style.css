@@ -297,15 +297,50 @@ section.dropbox-business {
 
 section.questions-and-answers {
   position: relative;
+  overflow: hidden;
 }
 
 .question {
-  display: flex;
+  position: relative;
   justify-content: space-between;
   font-size: 1.8rem;
   border-top: 1px solid grey;
+}
+
+.question span {
   line-height: 100px;
 }
+
+.question i {
+  position: absolute;
+  right: 0;
+  top: 40px
+}
+
+
+.question i:hover {
+  cursor: pointer;
+}
+
+.question p {
+  opacity: 0;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-align: justify;
+  color: rgb(160, 160, 160);
+}
+
+.question:hover p {
+  opacity: 1;
+  position: relative;
+  transition-duration: 0.5s;
+}
+
+
+
+
 
 .container-70 .question:last-child {
 border-bottom: 1px solid grey;
