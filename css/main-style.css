@@ -150,6 +150,7 @@ section.dropbox-business {
   min-height: 500px;
   max-width: calc(100% / 3);
   padding: 20px 50px;
+  margin-bottom: 20px;
   position: relative;
 }
 
@@ -159,10 +160,11 @@ section.dropbox-business {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .container-image img {
-  width: 80%;
+  width: 100%;
   position: absolute;
   z-index: -1;
 }
@@ -179,15 +181,11 @@ section.dropbox-business {
     transform: rotate(0deg);
   }
   100%{
-    width: 80%;
+    width: 100%;
     transform: rotate(360deg);
   }
 }
 
-
-.card p {
-  font-size: 1.2rem;
-}
 
 /* END SECTION DROPBOX BUSINESS */
 
@@ -200,51 +198,55 @@ section.dropbox-business {
 .our-customers .container-70 a {
   color: var(--link-color);
   font-size: 1.3rem;
+  display: inline-block;
 }
 
 .customers-section {
+  width: 100%;
   display: flex;
-  max-height: 600px;
+  
   max-width: 2000px;
   margin: 0 auto;
+  border: 5px solid royalblue;
 }
 
 .container-logos {
-  max-width: 30%;
-  aspect-ratio: 1/1;
+  width: 30%;
+  height: 100%; 
+  flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
-  flex-shrink: 0;
-  background-color: rgb(245, 245, 245)
 }
 
-.customer-logo {
+.square-logo {
   width: 50%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1; 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.customer-logo img {
-  width: 60%;
+.square-logo img {
+  width: 80%;
+  object-fit: cover;
+  padding: 20px;
 }
 
 .container-description {
-  flex-grow: 2;
-  max-height: 100%;
+  max-height: fit-content;
   overflow-y: scroll;
   background-color: rgb(245, 245, 245);
+  flex-shrink: 2;
 }
 
 .container-description > img {
   width: 150px;
-  aspect-ratio: 1/1;
+  padding-top: 20px;
 }
 
 /* START COLOR CUSTOMERS LOGO */
 
-.customer-logo img {
+.square-logo img {
   filter: invert(100%)
 }
 
@@ -282,18 +284,17 @@ section.dropbox-business {
 
 /* END COLOR CUSTOMERS LOGO */
 
-/* START :hover COLOR ON CUSTOMERS LOGO */
+/* START :active COLOR ON CUSTOMERS LOGO */
 
-.container-logos div:hover {
-  border: 25px solid rgba(0, 0, 0, 0.5);
+.container-logos div:active {
+  border: 15px solid rgba(255, 255, 255, 0.5);
   transition-duration: .5s;
-  cursor: pointer;
-  border-radius: 100%;
-  
-
+  cursor: pointer; 
 }
-.container-logos div:hover img {
+
+.container-logos div:active img {
   width: 200px;
+  transition: 1s;
 }
 
 /* END :hover COLOR ON CUSTOMERS LOGO */
