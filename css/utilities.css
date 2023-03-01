@@ -111,16 +111,16 @@ margin: 0 auto;
 
 /* END CONTAINER TYPE */
 
-/* START LINE STYLE */
+      /* START LINE STYLE */
 
-.line-0 {
+.line-50 {
   border: 1px solid lightgray;
   max-width: 50px;
   margin-bottom: 50px;
 }
 
 
-.line-1 {
+.line-150 {
   border: 1px solid grey;
   max-width: 150px;
   margin-bottom: 50px;
@@ -131,7 +131,7 @@ margin: 0 auto;
 
 /* ANCHOR TRICK */
 
-.anchor-10 {
+.anchor-100 {
   position: absolute;
   top: -100px;
 }
