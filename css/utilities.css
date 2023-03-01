@@ -16,10 +16,41 @@
   padding-right: 30px;
 }
 
+.px-4 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .px-5 {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.px-6 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.px-7 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.px-8 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.px-9 {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.px-10 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 /*END PADDING ASSE X */
 
 /*START PADDING ASSE Y */
@@ -39,23 +70,48 @@
   padding-bottom: 30px;
 }
 
+.py-4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .py-5 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
+.py-6 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.py-7 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.py-8 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.py-9 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.py-10 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /* END PADDING ASSE Y */
 
-/* ---START MARGIN ASSE Y--- */
+/* ---START MARGIN ASSE X--- */
 
 .mrg-x10 {
   margin-left: 10px;
   margin-right: 10px;
-}
-
-.mrg-y10 {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .mrg-x30 {
@@ -63,14 +119,28 @@
   margin-right: 30px;
 }
 
-.mrg-y30 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .mrg-x50 {
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.mrg-x80 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/* ---END MARGIN ASSE X--- */
+
+/* ---START MARGIN ASSE Y--- */
+
+.mrg-y10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mrg-y30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .mrg-y50 {
@@ -87,10 +157,6 @@
   margin-top: 150px;
 }
 
-.txt-center {
-  text-align: center;
-}
-
 /* ---END MARGIN ASSE Y--- */
 
 /* START CONTAINER TYPE */
@@ -103,15 +169,15 @@
 }
 
 .container-70 {
-width: 70%;
-max-width: 2000px;
-min-height: 300px;
-margin: 0 auto;
+  width: 70%;
+  max-width: 2000px;
+  min-height: 300px;
+  margin: 0 auto;
 }
 
 /* END CONTAINER TYPE */
 
-      /* START LINE STYLE */
+/* START LINE STYLE */
 
 .line-50 {
   border: 1px solid lightgray;
@@ -121,7 +187,7 @@ margin: 0 auto;
 
 
 .line-150 {
-  border: 1px solid grey;
+  border: 1px solid lightgray;
   max-width: 150px;
   margin-bottom: 50px;
 }
@@ -134,4 +200,9 @@ margin: 0 auto;
 .anchor-100 {
   position: absolute;
   top: -100px;
+}
+
+
+.txt-center {
+  text-align: center;
 }
