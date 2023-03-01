@@ -1,18 +1,17 @@
 .header {
   min-height: 80px;
-  max-height: 80px;
   width: 100%;
   max-width: 2000px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background-color: white;
   box-shadow: 0 0 10px rgba(77, 77, 77, 0.2);
-  z-index: 999;
 }
 
 header nav ul li {
@@ -70,10 +69,10 @@ header nav ul li:hover {
   position: absolute;
   top: 78px;
   left: -5px;
-  background-color: #ffffff;
   border-radius: 10px;
   opacity: .5;
   overflow: hidden;
+  background-color: #ffffff;
 }
 
 .header-right nav ul li:first-child:hover .support-dropdown {
@@ -82,6 +81,8 @@ header nav ul li:hover {
   transition-duration: .5s;
   top: 82px;
   left: -5px;
+  border: 1px solid rgba(77, 77, 77, 0.2);
+  box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 .support-dropdown li {
