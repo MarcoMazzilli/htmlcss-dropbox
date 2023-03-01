@@ -89,6 +89,8 @@ font-size: 1.2rem;
 
 .plan-description.orizzontal {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .plan-description.orizzontal a {
